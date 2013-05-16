@@ -1,0 +1,113 @@
+body {
+background-color: #000000;
+color: #FFFFCC;
+background-image: 
+url('misc_pics/house.jpg');
+background-repeat: 
+no-repeat;
+background-attachment: 
+fixed;
+background-position: center;
+font-size: 110%;
+}
+
+h1 {
+border: thick ridge #990000;
+text-align: center;
+background-color: #000000;
+color : #FFFFAA;
+font-weight: bold;
+font-size: 410%;
+}
+
+span.subh1 {
+color : #FFFFCC;
+font-size: 30%;
+}
+
+h2 {
+font-size: 110%;
+font-weight: bold;
+text-align: center;
+}
+
+p {
+margin-left:10%;
+margin-right:10%;
+}
+
+a:link { 
+color : #FFFF98;
+font-weight: bold;
+text-decoration: none;
+
+}
+a:visited {
+color : #CCFFAA;
+font-weight: bold;
+text-decoration: none;
+} 
+a:hover { 
+color : #FFCC00;
+font-weight: bold;
+} 
+
+div.image {
+text-align: center;
+}
+
+div.navmenu {
+text-align: center;
+border-top: thick ridge #990000;
+border-left: thick ridge #990000;
+border-right: thick ridge #990000;
+border-bottom: thick ridge #990000;
+background-color: #000000;
+font-weight: bold;
+}
+
+li.navmenu {
+display:inline;
+padding: 3em;
+}
+
+li.navmenuopen {
+display:inline;
+text-indent: 3em;
+border: ridge #990000;
+background-color: #660000;
+color: #FFFFCC;
+}
+
+ul {
+text-align: center;
+}
+
+table {
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+background-color: #000000;
+border: ridge #990000;
+border-collapse: collapse;
+}
+
+th {
+font-weight: bold;
+text-decoration: underline;
+font-size: 110%;
+font-weight: bold;
+border: ridge #990000;
+background-color: #660000;
+}
+
+td.marginset {
+padding-top: 88px;
+padding-bottom: 88px;
+}
+
+form {
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+}

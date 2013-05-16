@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+
+<title>The Poisoned Pears official band website - "Gig dates" section</title>
+<meta name="author" content="Philip Burling"/>
+<meta name="author-email" content="00pburling@worth.org.uk"/>
+<meta name="date" content="2007-03-08"/>
+<meta name="description" content="This is the 'Gig dates' section of the official website for the West-Sussex-based indie band 'The Poisoned Pears'. It provides a listing of all future confirmed gig dates.
+From here there are links through which you can read about the history of the band, view photos of the band, look at their repertoire of songs,  contact the band and listen to samples of their compositions."/>
+<meta name="keywords" content="indie poisoned pears west sussex gig gigs band bands hire mica"/>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+<h1>The Poisoned Pears<br/><span class="subh1">Official Website</span></h1>
+
+<div class="navmenu">
+<ul>
+<li class="navmenu"><a href="about_us.htm">About us</a></li>
+<li class="navmenu"><a href="song_repertoire.htm">Song repertoire</a></li>
+<li class="navmenu"><a href="photos.htm">Photos</a></li>
+<li class="navmenu"><a href="listen.htm">Listen</a></li>
+<li class="navmenuopen">Gig dates</li>
+<li class="navmenu"><a href="contact_us.htm">Contact us</a></li>
+</ul>
+</div>
+
+
+<p><!--#config timefmt="%A %d/%m/%y" -->Today is
+<!--#echo var="DATE_LOCAL" --><br/>
+<!--#config timefmt="%A %d/%m/%y" -->The list was last updated 
+<!--#echo var="LAST_MODIFIED" -->
+</p>
+
+
+<h2>Confirmed dates:</h2>
+
+<p>Currently there are no gigs scheduled
+</p>
+
+<table summary="This table lists all gigs currently scheduled for the future.">
+	<tr>
+		<th>Location</th>
+		<th>Date</th>
+	</tr>
+	<tr>
+		<td> Gig dates will appear here soon!</td>
+		<td></td>
+	</tr>
+</table>
+
+</body>
+
+</html>

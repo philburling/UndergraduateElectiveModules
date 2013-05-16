@@ -1,0 +1,15 @@
+Site URL = http://www.personal.leeds.ac.uk/~jhs5pb/
+
+Techniques that are not obvious from browsing:
+
+Doctype stated
+CSS file used
+Meta-tags used
+Different classes for elements used
+<div> and <span> tags used
+Lists used
+Table headings used
+.htaccess used for date SSIs and selecting index page
+email validation javascript in the form on the contact_us.htm page
+
+All sizes used in the css layout are relative 

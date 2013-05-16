@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+
+<title>The Poisoned Pears official band website - "Contact us" section</title>
+<meta name="author" content="Philip Burling"/>
+<meta name="author-email" content="00pburling@worth.org.uk"/>
+<meta name="date" content="2007-03-08"/>
+<meta name="description" content="This is the 'Contact us' section of the official website for the West-Sussex-based indie band 'The Poisoned Pears'. Here you can submit a request for a gig and send your comments to the website's manager. From here there are links through which you can read about the history of the band, view photos of the band, look at their repertoire of songs, view gig dates, contact the band and listen to samples of their compositions."/>
+<meta name="keywords" content="indie poisoned pears west sussex gig gigs band bands hire mica"/>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+function validate_email(field,alerttxt)
+{
+with (field)
+{
+apos=value.indexOf("@")
+dotpos=value.lastIndexOf(".")
+if (apos<1||dotpos-apos<2) 
+  {alert(alerttxt);return false}
+else {return true}
+}
+} 
+
+function validate_form(thisform)
+{
+with (thisform)
+{
+if (validate_email(txt_email,"Not a valid e-mail address!")==false)
+  {txt_email.focus();return false}
+}
+}
+
+//--><!]]>
+
+</script>
+
+</head>
+
+<body>
+
+<h1>The Poisoned Pears<br/><span class="subh1">Official Website</span></h1>
+
+<div class="navmenu">
+<ul>
+<li class="navmenu"><a href="about_us.htm">About us</a></li>
+<li class="navmenu"><a href="song_repertoire.htm">Song repertoire</a></li>
+<li class="navmenu"><a href="photos.htm">Photos</a></li>
+<li class="navmenu"><a href="listen.htm">Listen</a></li>
+<li class="navmenu"><a href="gig_dates.shtml">Gig dates</a></li>
+<li class="navmenuopen">Contact us</li>
+</ul>
+</div>
+
+<p>You may use the form below to submit a comment or query directly to the website manager.<br/>
+Enter your name and email in the relevant boxes if you want a response.<br/>
+Questions will be replied to as soon as possible.<br/>
+You may use this feature to ask about future gigs, make your own bookings and find more information about the band and its music.
+</p>
+
+<form method="post" 
+action="http://www.personal.leeds.ac.uk/cgi-bin/mailform.cgi" onsubmit="return validate_form(this);">
+<p>
+<input type="hidden" name="subject" value="Site feedback"/>
+<input type="hidden" name="recipient" value="jhs5pb@leeds.ac.uk"/>
+<input type="hidden" name="confirmpage" value="http://www.personal.leeds.ac.uk/~jhs5pb/message_confirmed.htm"/>
+</p>
+<p>
+<label for="txt_name">Name:</label>
+<input type="text" name="txt_name" id="txt_name" value="Enter your name here"/><br/>
+<label for="txt_email">Email:</label>
+<input type="text" name="txt_email" id="txt_email" value="Enter your email address here"/><br/>
+</p>
+<p>
+<label for="txt_comment">Message:</label><br/>
+<textarea name="txt_comment" id="txt_comment" rows="10" cols="20">Enter your message here.</textarea>
+<br/>
+<input type="submit" value="Submit"/>
+<input type="reset" value="Clear"/>
+</p>
+</form>
+
+<p>If your message has successfully been sent, you should be redirected to a page confirming this.<br/>
+If this fails to work please email the website manager directly at <a href="mailto:jhs5pb@leeds.ac.uk">jhs5pb@leeds.ac.uk</a><br/> notifying him of the problem.
+</p>
+
+<p>Note: Acknowledgements to <a href="http://www.w3schools.com">W3 Schools</a> for the provision of the javascript code for the email validator used on this page, and to the University of Leeds for the CGI script for the form.
+</p>
+
+</body>
+
+</html>

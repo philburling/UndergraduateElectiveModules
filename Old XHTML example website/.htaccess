@@ -1,0 +1,10 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+DirectoryIndex about_us.htm
+
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+Options +Includes
